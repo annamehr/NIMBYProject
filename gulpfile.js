@@ -1,6 +1,3 @@
-// --------------------------------------------
-// Dependencies
-// --------------------------------------------
 var autoprefixer = require('gulp-autoprefixer'),
     concat = require('gulp-concat'),
     del = require('del'),
@@ -97,3 +94,4 @@ gulp.task('watch', function(){
 
 // use default task to launch Browsersync and watch JS files
 gulp.task('default', [ 'sass', 'scripts', 'vendors', 'watch'], function () {});
+
