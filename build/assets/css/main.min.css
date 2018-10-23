@@ -1,5 +1,5 @@
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize * */
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,900");
+@import url("https://fonts.googleapis.com/css?family=Helvetica:400,500,900");
 html, body {
   height: 100%;
   margin: 0; padding: 0;
@@ -25,7 +25,7 @@ html, body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;	
-  height: 50%;
+  height: 25%;
   text-align: center;
 }
 
@@ -54,7 +54,7 @@ html, body {
 
 .box {
   width: 960px;
-	margin: 0 0 0 10;
+	margin: 10 0 0 10;
   display: grid;
   grid-template-columns: repeat(3,auto);
   grid-gap: 0cm;
@@ -77,11 +77,15 @@ html, body {
 
 .box2 {
   width: 960px;
-	margin: 0 0 0 10;
+	margin: 50 0 0 50;
   display: grid;
   grid-template-columns: repeat(4,auto);
   grid-gap: 0cm;
-  padding: 10px;
+  padding-top: 10px;
+  padding-right: 150px; /* 3 */
+  padding-left:  150px; 
+  padding-bottom: 10px;
+  background-position: center;
 }
 
 .project-b {
@@ -95,18 +99,32 @@ html, body {
   border-radius: 5px;
   height: 282px;
   width: 178px;
-  display: inline-block
+  display: inline-block;
+  text-align: center;
 }
 
+/* ---footer----*/
+
 #footer		{
-	margin: 6px auto 0 auto;
-	width: 100%;
-	color: #D1DBBD;
-	clear:both;
-	text-align: center;
-	font-size: 14px;
-	position: bottom ;
-	bottom: 0;
+  text-align: right;
+  padding: 20px 0px;
+  list-style-type:none;
+  text-transform: uppercase;
+  width: 100%;
+  clear: both;
+  background-color: #F5F6F6;
+}
+
+#footer ul {
+  list-style-type:none;
+
+}
+
+#footer ul li {
+  list-style-type:none;
+  margin: 0px 20px;
+  text-transform: uppercase;
+  word-spacing: 1cm
 }
 
 /* Menu style 
