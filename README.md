@@ -1,2 +1,2 @@
 # NIMBYProject
-code files for the landing page project
+code files for the donation page project
