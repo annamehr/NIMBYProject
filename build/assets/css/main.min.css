@@ -19,6 +19,16 @@ html, body {
   overflow:auto;
 }
 
+.header2 {
+	background: url(/Users/satoshipay/Documents/GitHub/NIMBYProject/build/assets/img/coal.png.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+  height: 100%;
+  overflow:auto;
+}
+
 .projects {
 	background-color: #F5F6F6;
 	-webkit-background-size: cover;
@@ -63,7 +73,7 @@ html, body {
 
 .project-a {
   background-color: white;
-  	-webkit-background-size: cover;
+  -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;	
@@ -72,7 +82,7 @@ html, body {
   border-radius: 5px;
   height: 384px;
   width: 326px;
-  display: inline-block
+
 }
 
 .box2 {
@@ -101,6 +111,29 @@ html, body {
   width: 178px;
   display: inline-block;
   text-align: center;
+}
+
+.box3 {
+  width: 960px;
+	margin: 10 0 0 10;
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  grid-gap: 0cm;
+  padding: 10px;
+}
+
+.project-c {
+  background-color: white;
+  	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+  height: 100%;
+  padding: 30px;
+  border-radius: 5px;
+  height: 384px;
+  width: 326px;
+  display: inline-block
 }
 
 /* ---footer----*/
@@ -172,9 +205,12 @@ Onhover effect with an ease in & out effect.*/
       /* Typography*/ 
       
       h1 {
+        font-size: 80px;
         color: #212B36;
-        text-align: center;
-        padding: 5px; margin: 5px;
+        text-align: right;
+        padding-right: 30px; 
+        margin: 5px;
+        font-family: 'Helvetica', 'Palatino Linotype', 'Times New Roman'; 
       }
     
       h2 {
@@ -185,7 +221,7 @@ Onhover effect with an ease in & out effect.*/
         margin: 50px 0 0 50px;
         padding: 0; margin: 0;
         display: inline-block;
-        font-family: 'Helvetica', 'Palatino Linotype', 'Times New Roman', serif;
+        font-family: 'Helvetica', 'Palatino Linotype', 'Times New Roman serif;
       }
       
       h3	{
@@ -195,6 +231,16 @@ Onhover effect with an ease in & out effect.*/
         text-align: center;
         padding: 0; margin: 0;
         font-family: 'Helvetica', 'Palatino Linotype', 'Times New Roman', serif;
+      }
+
+      h4 {
+        font-size: 28px;
+        color: #212B36;
+        text-align: right;
+        padding-right: 30px; 
+        padding-left: 600px;
+        margin: 5px;
+        font-family: 'Helvetica', 'Palatino Linotype', 'Times New Roman'; 
       }
       
       p	{
@@ -220,6 +266,21 @@ Onhover effect with an ease in & out effect.*/
   
   a:hover	{
       color: #D1DBBD;
+  }
+
+  /*Google Maps integration*/
+
+  .mapouter{
+    text-align:right;
+    height:433px;
+    width:608px;
+  }
+  
+  .gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:433px;
+    width:608px;
   }
 
   /* Home styling
