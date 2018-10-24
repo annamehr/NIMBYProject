@@ -246,7 +246,7 @@ Onhover effect with an ease in & out effect.*/
       p	{
         padding: 10px;
         font-size: 14px;
-        line-height: 1.5;
+        line-height: 1.5; 
         font-family: 'Helvetica', 'Palatino Linotype', 'Times New Roman', serif;
         text-align: center;
       }
